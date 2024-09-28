@@ -1,0 +1,25 @@
+name: HypixelSkyblock
+version: '1.0-Beta'
+main: de.drache.hypixelSkyblock.main
+api-version: '1.21'
+
+commands:
+  skyblock:
+    description: Reload the configuration file
+    permission: op
+    aliases: sbr
+  skyblockitems:
+    description: List all items in the Skyblock shop
+    alias: sbi
+  addzealotspawn:
+    aliases: azs
+  spawnkudra:
+    description: Spawn
+  sell:
+    description: sells items
+  setPurse:
+    permissions: op
+  itemshop:
+    description: Open the item shop
+  craft:
+    description: Opens crafting Menu
